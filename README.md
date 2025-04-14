@@ -55,6 +55,7 @@
   href="https://unpkg.com/@waline/client@v3/dist/waline.css"
 />
 <!-- 评论区挂载点 -->
+<body>
 <div id="waline"></div>
 <script type="module">
   import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.mjs';
@@ -131,4 +132,4 @@
     ],
     locale,
   });
-</script>
+</script></body>
